@@ -1,6 +1,3 @@
---Section 6
---Jumping back to inserting data
-
 Use SQLCourse_DB
 
 IF OBJECT_ID('TestTable') IS NOT NULL DROP TABLE TestTable
@@ -137,3 +134,4 @@ Group by Gender
 Having Sum(Charges) > 10000
 
 Select * From #TestTable
+
